@@ -1,0 +1,181 @@
+/* Zadatak 4 HTML CSS */
+
+html {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+.blog-post-title:hover {
+  text-decoration: underline;
+}
+
+.blog-title {
+  font-family: sans-serif;
+}
+
+/* Stilovi za create new post */
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.form-container {
+  width: 500px;
+}
+
+.create-post-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-form > div,
+.register-form > div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.create-post-form > div > h4,
+.register-form > div > h4 {
+  color: #999;
+  margin: 0;
+}
+
+.create-post-form > div > input,
+.register-form > div > input,
+.create-post-form > div > select {
+  width: 300px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.post-body {
+  resize: none;
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+}
+
+.create-post-form > .submit-btn-div,
+.register-form > .submit-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn-div > .submit-btn {
+  margin: 0;
+  border-radius: 5px;
+  /* border: 1px solid #e05a5a;
+  background-color: #e05a5a; */
+  color: white;
+  font-weight: bold;
+}
+
+.btn-default {
+  margin: 15px 0;
+}
+
+.add-comm-form > div > textarea {
+  resize: none;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+.add-comm-form > div > input {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.add-comm-form > div {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.add-comm-form > div > h4 {
+  margin: 0;
+}
+
+.add-new-comment {
+  border: 1px solid darkorange;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.alert-danger {
+  display: none;
+}
+
+.comment-list > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-list > li > .btn-default {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-list > li > .btn-default > a {
+  color: rgb(179, 0, 0);
+  text-decoration: none;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-name-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.blog-name-container > h2 {
+  font-family: sans-serif;
+}
+
+.name-one {
+  color: orange;
+}
+.name-two {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.blog-name > a:link,
+.blog-name > a:hover {
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid #ddd;
+}
+
+.blog-sidebar {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #069;
+  border-color: #036;
+}
